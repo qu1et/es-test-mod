@@ -4,7 +4,7 @@ init:
 
     $ mhp = Character(u"Миша", color="5A9FE7", ctc="ctc_animation", ctc_position="fixed", what_color="ffdd7d", drop_shadow = [(2, 2)], drop_shadow_color = "#000", what_drop_shadow = [(2, 2)], what_drop_shadow_color = "#000")
 
-    image josh = "mods/dicks_around_me/resources/images/josh.jpg"
+    image josh = "mods/es-test-mod/resources/images/josh.jpg"
 
 label prlg:
     play sound sfx_ikarus_arrive
@@ -46,6 +46,6 @@ label prlg:
     jump gas_opening
 
 label gas_opening:
-    $ renpy.movie_cutscene("mods/dicks_around_me/resources/video/vlad.ogv")
+    $ renpy.movie_cutscene("mods/es-test-mod/resources/video/vlad.ogv")
 
 
